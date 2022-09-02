@@ -1,4 +1,4 @@
-.carousel-item::before {
+.carousel-item-1::before {
     content: "";
     display: block;
     position: absolute;
@@ -53,5 +53,11 @@ h3 {
     .see-more {
         display: none;
 
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .d-md-none-reviews {
+        display: none;
     }
 }
