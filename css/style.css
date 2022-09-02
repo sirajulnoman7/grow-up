@@ -14,10 +14,22 @@ h3 {
     font-size: 22px;
 }
 
-@media screen and (max-width: 800px) {
+.one-line {
+    width: 100px;
+
+    overflow: hidden;
+
+}
+
+
+
+@media screen and (max-width: 820px) {
     .siraj {
         display: none;
+
     }
+
+
 
 
 }
@@ -25,5 +37,21 @@ h3 {
 @media screen and (max-width: 994px) {
     .siraj-btn {
         display: none;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .short-tex {
+        display: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .see-more {
+        display: none;
+
     }
 }
