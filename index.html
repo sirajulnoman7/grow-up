@@ -23,7 +23,7 @@
             <nav class="navbar navbar-expand-lg bg-light fixed-top">
                 <div class="container ">
 
-                    <a class="navbar-brand fs-3 fw-bold" href="#">Grow Up</a>
+                    <a class="navbar-brand fs-3 fw-bold" href="#"><span class="text-success">Grow</span> Up</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -358,9 +358,46 @@
                         <div class="col-lg-5 col-md-6 ">
                             <div class="card-body">
                                 <div class="container p-5 d-flex flex justify-content-center ">
-                                    <a class="btn btn-outline-info text-white" href="">Register Now</a>
-
+                                    <a class="btn btn-outline-info text-white" data-bs-toggle="modal"
+                                        data-bs-target="#mordal-subscribe" href="">Register Now</a>
                                 </div>
+                                <div id="mordal-subscribe" class="modal" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Sign In</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1" class="form-label">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control"
+                                                        id="exampleFormControlInput1" placeholder="name@example.com">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlInput1" class="form-label">Password
+                                                        address</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleFormControlInput1" placeholder="123@#">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlTextarea1" class="form-label">Discribe
+                                                        Your Basic Info
+                                                    </label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                        rows="3"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -619,19 +656,19 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    <h5> What other services are you compatible with?</h5>
+                                    <h5> Difference between CSS Grid and CSS Flexbox?</h5>
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">There are many variations of passages of available, but the
-                                    majority have suffered alteration in some form, by injected humour, or randomised
-                                    words which don't look even slightly believable. If you are going to use a passage
-                                    of Lorem Ipsum, you need <code>.accordion-flush</code> to be sure there isn't
-                                    anything embarrassing hidden in the
-                                    middle of text. All the generators on the. class. This
-                                    is the first item's
-                                    accordion body.</div>
+                                <div class="accordion-body">Grid:CSS Grid Layout, is a two-dimensional grid-based layout
+                                    system with rows and columns, making it easier to design web pages without having to
+                                    use floats and positioning. Like tables, grid layout allow us to align elements into
+                                    columns and rows. <br>
+                                    Flexbox: The CSS Flexbox offers a one-dimensional layout. It is helpful in
+                                    allocating and aligning the space among items in a container (made of grids). It
+                                    works with all kinds of display devices and screen sizes.
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -639,17 +676,18 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    <h5>I have a technical i need resolved, who do i email?</h5>
+                                    <h5>Bootstrap
+                                        vs
+                                        Tailwind CSS?</h5>
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">There are many variations of passages of available, but the
-                                    majority have suffered alteration in some form, by injected humour, or randomised
-                                    words which don't look even slightly believable. If you are going to use a passage
-                                    of Lorem Ipsum, you need .accordion-flush to be sure there isn't anything
-                                    embarrassing hidden in the middle of text. All the generators on the. class. This is
-                                    the first item's accordion body..</div>
+                                <div class="accordion-body"> Tailwind is different from frameworks like Bootstrap,
+                                    Foundation, or Bulma in that it's not a UI kit. It doesn't have a default theme, and
+                                    there are no build-in UI components. It comes with a menu of predesigned widgets to
+                                    build your site with, but doesn't impose design decisions that are difficult to
+                                    undo..</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -657,16 +695,15 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    <h5>What other services are you compatible with?</h5>
+                                    <h5>What is meant by CSS box model?</h5>
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">
+                                    In CSS, the term "box model" is used when talking about design and layout. The CSS
+                                    box model is essentially a box that wraps around every HTML element. It consists of:
+                                    margins, borders, padding, and the actual content.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -674,16 +711,17 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapsefour" aria-expanded="false"
                                     aria-controls="flush-collapsefour">
-                                    <h5>What other services are you compatible with?</h5>
+                                    <h5>What are semantic tags examples?</h5>
                                 </button>
                             </h2>
                             <div id="flush-collapsefour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">
+                                    <footer> Defines a footer for a document or section
+                                        <header> Specifies a header for a document or section
+                                            <main> Specifies the main content of a document
+                                                <mark> Defines marked/highlighted text.
+                                </div>
                             </div>
                         </div>
                     </div>
